@@ -93,13 +93,24 @@ background-repeat: no-repeat; */
 
 
 #cebolinha{
-    background-color: rgb(12, 179, 12);
+    background-color: #00A652;
     background-image: url('./img/image\ 3.png'), url('./img/image\ 4.png'), url('./img/image\ 5.png'), url('./img/image\ 6.png');
     padding-inline: 10vh, 10vh, 10vh, 10vh;
     background-size: 18% 45%, 18% 45%, 40% 50%, 30% 40%;
     background-position-x: 95%, 1%, 95%, 1%;
     background-position-y: 100%, 10%, 1%, 100%;
     background-repeat: no-repeat;
+}
+
+#cebolinha h1{
+    width: 8%;
+    height: 15%;  
+    font-family: "Koh Santepheap", serif; 
+    color: white; 
+    padding-top: 5%;
+    padding-left: 30%;
+    font-size: 13vh;
+    -webkit-text-stroke: 3px black;
 }
 
 #magali{
