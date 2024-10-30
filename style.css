@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul, ol, li{
+    list-style: none;
+}
+
+html, body{
+    scroll-behavior: smooth;
+}
+
+header{
+    position: fixed;
+    background-color: #333;
+    padding: 16px;
+    width: 100vw;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul a{
+    color: white;
+    padding: 8px;
+    transition: 1s;
+}
+
+/* boder-bottom: 4px solid black (fazer uma linha no texto quando passar o mouse)*/
+/* hover serve para dar efeito quando passamos o mouse em cima */
+
+header nav ul a:hover{
+    color: black;
+    background-color: red;
+}
+
+.grupo{
+    height: 100dvh;
+}
+
+
+/* height: 70vh;
+padding-inline: 10vh;
+background-image: url('./img/events.jpg');
+background-size: 57% 150%;
+background-position-x: 100%;
+background-position-y: 0%;
+background-repeat: no-repeat; */
+
+
+#monica{
+    background-color: #E40000;
+    background-image: url('./img/monica.webp'), url('./img/image\ 2.png');
+    padding-inline: 10vh, 10vh;
+    background-size: 40% 95%, 18% 45%;
+    background-position-x: 95%, 1%;
+    background-position-y: 90%, 100%;
+    background-repeat: no-repeat;
+    
+}
+
+#monica h1{
+    width: 8%;
+    height: 15%;  
+    font-family: "Koh Santepheap", serif; 
+    color: white; 
+    padding-top: 5%;
+    padding-left: 20%;
+    font-size: 13vh;
+    -webkit-text-stroke: 3px black;
+    
+}
+
+#monica .conteudo{
+    padding-top: 8.5%;
+}
+
+#monica p{
+    width: 50%;
+    height: 5%;  
+    color: white; 
+    padding-left: 10%;
+    font-size: 3vh;
+}
+
+
+#cebolinha{
+    background-color: rgb(12, 179, 12);
+    background-image: url('./img/image\ 3.png'), url('./img/image\ 4.png'), url('./img/image\ 5.png'), url('./img/image\ 6.png');
+    padding-inline: 10vh, 10vh, 10vh, 10vh;
+    background-size: 18% 45%, 18% 45%, 40% 50%, 30% 40%;
+    background-position-x: 95%, 1%, 95%, 1%;
+    background-position-y: 100%, 10%, 1%, 100%;
+    background-repeat: no-repeat;
+}
+
+#magali{
+    background-color: rgb(255, 255, 0);
+}
+
+#cascao{
+    background-color: purple;
+}
