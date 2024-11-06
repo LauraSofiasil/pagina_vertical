@@ -221,5 +221,34 @@ background-repeat: no-repeat; */
 
 
 #cascao{
-    background-color: purple;
+    background-color: #FFA500;
+    background-image: url('./img/chuva.png'), url('./img/chuva2.png'), url('./img/chuva3.png'), url('./img/cascao.png'), url('./img/cascao2.png');
+    background-size: 50% 50%, 50% 40%, 30% 40%, 18% 60%, 20% 48%;
+    background-position-x: 0%, 85%, 100%, 63%, 80%;
+    background-position-y: 6%, -2%, -20%, 90%, 95%;
+    background-repeat: no-repeat;
+}
+
+#cascao h1{
+    width: 8%;
+    height: 15%;  
+    font-family: "Koh Santepheap", serif; 
+    color: white; 
+    padding-top: 5%;
+    padding-left: 38%;
+    font-size: 13vh;
+    -webkit-text-stroke: 3px black;
+}
+
+#cascao .conteudo{
+    width: 35%;
+    height: 20%;
+    padding-top: 33%;
+    padding-left: 3%;
+    color: white; 
+}
+
+#cascao .conteudo p{
+    font-size: 250%;
+    padding-top: 2%;
 }
